@@ -1,0 +1,12 @@
+INFO:     Will watch for changes in these directories: ['/home/workspace']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [246] using StatReload
+INFO:     Started server process [248]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     172.20.0.1:34456 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:52404 - "OPTIONS /auth/login HTTP/1.1" 200 OK
+INFO:     172.20.0.1:52412 - "POST /auth/login HTTP/1.1" 401 Unauthorized
+INFO:     172.20.0.1:52404 - "POST /auth/login HTTP/1.1" 401 Unauthorized
+INFO:     172.20.0.1:51682 - "GET / HTTP/1.1" 200 OK
+INFO:     172.20.0.1:51682 - "GET /favicon.ico HTTP/1.1" 404 Not Found
